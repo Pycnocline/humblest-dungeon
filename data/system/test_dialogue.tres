@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=5 format=3 uid="uid://ds3ex0avg3isk"]
+
+[ext_resource type="Script" path="res://scripts/core/dialogue_data.gd" id="1_57yv5"]
+[ext_resource type="Script" path="res://scripts/core/node/base_node.gd" id="1_mjxvk"]
+[ext_resource type="Script" path="res://scripts/core/node/text_node.gd" id="2_vr6j5"]
+
+[sub_resource type="Resource" id="Resource_t7o6c"]
+script = ExtResource("2_vr6j5")
+text = ""
+auto_advance = false
+advance_delay = 1.0
+next_node = ""
+required_vars = {}
+node_id = ""
+node_type = ""
+comments = ""
+
+[resource]
+script = ExtResource("1_57yv5")
+nodes = Array[ExtResource("1_mjxvk")]([SubResource("Resource_t7o6c")])
+dependencies = Array[String]([])
+variables = {}
+version = "1.0"
