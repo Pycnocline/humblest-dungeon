@@ -9,6 +9,4 @@ extends BaseNode
 	"condition": "gold > 50", # 显示条件
 	"set_vars": {"used": 1}   # 选择后设置的变量
 }]
-
-func _init():
-	node_type = "choice"
+@export var node_type: String = "choice"	# 节点类型
