@@ -6,7 +6,8 @@
 
 [sub_resource type="Resource" id="Resource_t7o6c"]
 script = ExtResource("2_vr6j5")
-text = "[center][tornado][b][font_size=60]Humblest Dungeon[/font_size][/b][/tornado][/center]"
+text = "[center][tornado][b][font_size=70]Humblest Dungeon[/font_size][/b][/tornado][/center]
+[center]按回车键开始游戏......[/center]"
 auto_advance = false
 new_line = true
 advance_delay = 1.0
